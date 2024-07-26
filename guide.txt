@@ -1,0 +1,15 @@
+gradle-8.1.1
+java 17
+
+StartPoint: PixelDungeon
+
+    PixelDungeon extends Game
+
+    Game extends Activity implements GLSurfaceView.Renderer, View.OnTouchListener
+
+    game->onDrawFrame()->step()->switchScene()
+
+
+    At line 39, PixelDungeon->PixelDungeon()-> super( TitleScene.class ):
+        will show TitleScene
+
